@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Favourite Locations</h1>
+
+<div id="controls">
+    <p>Add a location to the database</p>
+    <label>Latitude: </label><input type="text" id="latitude" /><br />
+    <label>Longitude: </label><input type="text" id="longitude" /><br />
+    <button type="button" id="addlocation" onclick="addCar();">Add Location</button>
+</div>
+<div id="carlistholder">
+    <h3>Your Locations</h3>
+    <ul id="carlist">
+    </ul>
+</div>
+<p><strong>Note: </strong>You can leave this page and when you return the locations you entered will still be here!</p>
+<div>
+    <div id="map" style="width: 500px; height:400px;"></div>
+
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyClBG05TNmd92vsl3vk-M2XMRpP-KreQh4";></script>
+</div>
+<script src="hw9.js"></script>
+</body>
+</html>
