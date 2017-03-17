@@ -44,7 +44,7 @@ function updateLocList(transaction, results) {
         //Get the current row
         var row = results.rows.item(i);
 
-        listholder.innerHTML += "<li>" + row.lat + " - " + row.long + " (<a href='javascript:void(0);' onclick='deleteLoc(" + row.id + ");'>Delete Location</a>)";
+        listholder.innerHTML += "<li>" + row.latitude + " - " + row.longitude + " (<a href='javascript:void(0);' onclick='deleteLoc(" + row.id + ");'>Delete Location</a>)";
     }
 
 }
